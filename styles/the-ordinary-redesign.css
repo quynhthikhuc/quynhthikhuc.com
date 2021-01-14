@@ -1,0 +1,12 @@
+/* Specific rules */
+#card-sort-image{
+    padding-bottom: 1rem;
+}
+
+p.card-sort{
+    padding-bottom: 1.5rem;
+}
+
+.wireframes{
+    border: .12rem solid #000;
+}

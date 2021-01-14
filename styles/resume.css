@@ -1,0 +1,50 @@
+/* General rules */
+h1{
+    border-bottom: .25rem dotted #000;
+    padding-bottom: .5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.25rem;
+    margin-left: .75rem;
+    margin-right: .75rem;
+    padding-top: 1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-top: .5rem;
+}
+
+/* Specific rules */
+.experience-content-list li{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    list-style: square;
+    margin-left: 2rem;
+    margin-right: .75rem;
+    padding-top: .5rem;
+}
+
+#education, #skills{
+    padding-top: 2rem;
+}
+
+.skill-categories{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#skill-list li{
+    line-height: 2.25rem;
+    list-style: square;
+    margin-left: 2rem;
+    margin-right: .75rem;
+}
+
+.year{
+    font-style: italic;
+}

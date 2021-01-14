@@ -1,0 +1,145 @@
+/* @font-face */
+@font-face{
+    font-family: "Josefin Sans";
+    src: url("../fonts/JosefinSans-SemiBold.woff") format("woff"),
+         url("../fonts/JosefinSans-SemiBold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: "Josefin Sans";
+    src: url("../fonts/JosefinSans-SemiBoldItalic.woff") format("woff"),
+         url("../fonts/JosefinSans-SemiBoldItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: "Josefin Sans";
+    src: url("../fonts/JosefinSans-Light.woff") format("woff"),
+         url("../fonts/JosefinSans-Light.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Josefin Sans";
+    src: url("../fonts/JosefinSans-LightItalic.woff") format("woff"),
+         url("../fonts/JosefinSans-LightItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* General rules */
+* {
+    outline: none;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F5F2F0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 100%;
+}
+
+button{
+    background-color: #DBBFB3;
+    border: none;
+    border-radius: .8rem;
+    font-family: inherit;
+    font-size: 125%;
+    font-weight: bold;
+    height: 2.75rem;
+    text-align: center;
+    width: 9rem;
+    vertical-align: top;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 3rem;
+    margin-left: .75rem;
+    margin-right: .75rem;
+    padding-top: .5rem;
+}
+
+h2{
+    line-height: 2.25rem;
+}
+
+header{
+    background-color: #DBBFB3;
+    height: 5rem;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-left: .75rem;
+    margin-right: .75rem;
+}
+
+/* Specific rules */
+#content{
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 88%;
+}
+
+header ul{
+    margin-bottom: 2rem;
+    margin-top: .75rem;
+}
+
+#logo{
+    padding-top: 1rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width: 4rem;
+    width: 100%;
+}
+
+#menu{
+    padding-bottom: .5rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    position: absolute;
+    max-width: 2rem;
+    width: 100%;
+}
+
+#nav-bar{
+    background-color: #DBBFB3;
+    display: none;
+    padding-bottom: .1rem;
+    padding-top: 3.25rem;
+}
+
+nav li{
+    border-bottom: .25rem dotted #000000;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    width: 10rem;
+}
+
+nav li a{
+    display: block;
+    padding: 1.5rem 0;
+}
+
+/* Pseudo effects */
+#menu:hover{
+    cursor: pointer;
+}

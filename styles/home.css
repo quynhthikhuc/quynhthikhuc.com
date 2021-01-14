@@ -1,0 +1,32 @@
+/* General rules */
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/* Specific rules */
+#about-button{
+    text-align: center;
+}
+
+#content img{
+    display: block;
+    margin: 0 auto;
+    max-width: 20rem;
+    width: 100%;
+}
+
+main h1{
+    padding-top: 1.75rem;
+}
+
+/* Pseudo effects */
+button:hover{
+    background-color: #E5C9BC;
+    cursor: pointer;
+}

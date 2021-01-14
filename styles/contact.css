@@ -1,0 +1,18 @@
+/* General rules */
+h1{
+    padding-bottom: .5rem;
+}
+
+/* Specific rules */
+#social-media-list li{
+    font-size: 1.5rem;
+    list-style: square;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    text-decoration: underline;
+}
+
+/* Pseudo effects */
+#social-media-list li:hover{
+    font-weight: bold;
+}

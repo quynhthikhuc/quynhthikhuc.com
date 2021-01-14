@@ -1,0 +1,61 @@
+/* General rules */
+figure{
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: center;
+}
+
+h1{
+    border-bottom: .25rem dotted #000;
+    padding-bottom: .5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: .75rem;
+    margin-right: .75rem;
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+i{
+    font-style: italic;
+}
+
+/* Specific rules */
+#content{
+    padding-bottom: 1rem;
+}
+
+figure figcaption{
+    font-size: 1.25rem;
+    padding-top: .25rem;
+}
+
+h1 + p{
+    padding-top: 1rem;
+}
+
+main img{
+    height: auto;
+    padding-top: .25rem;
+    max-width: 50rem;
+    width: 100%;
+}
+
+.main-images{
+    text-align: center;
+}
+
+.main-list li{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    list-style: square;
+    margin-left: 2rem;
+    margin-right: .75rem;
+    padding-bottom: .25rem;
+    padding-top: .25rem;
+}

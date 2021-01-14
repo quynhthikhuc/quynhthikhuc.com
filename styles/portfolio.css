@@ -1,0 +1,67 @@
+/* General rules */
+figcaption{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.25rem;
+    padding-top: .5rem;
+}
+
+figure{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+h1{
+    border-bottom: .25rem dotted #000;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+}
+
+/* Specific rules */
+#all{
+    width: 4rem;
+}
+
+.catalog-item{
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 30rem;
+    width: 100%;
+}
+
+#content{
+    padding-bottom: 1rem;
+}
+
+.filter{
+    display: inline-block;
+    margin: .75rem auto 0;
+}
+
+figure img{
+    width: 90%;
+}
+
+#graphic-design{
+    width: 12rem;
+}
+
+#ui-ux{
+    width: 12rem;
+}
+
+#web-dev{
+    width: 14rem;
+}
+
+/* Pseudo effects */
+.filter:hover{
+    background-color: #E5C9BC;
+}
+
+figure figcaption:hover{
+    opacity: 60%;
+}
+
+
